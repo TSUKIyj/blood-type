@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+}
+
+/*視窗背景*/
+body {
+  background: #d6c3b4;
+}
+
+/*頁首,導覽,頁尾共通設定*/
+header,
+nav,
+footer {
+  text-align: center;
+}
+/*標題*/
+h2 {
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 2px solid #f3f4d5;
+  background-color: #f4e8c0;
+  color: #8d6a6e;
+  border-radius: 10px;
+}
+
+/*內容區塊*/
+#contents {
+  width: 798px;
+  margin: 40px auto;
+  padding: 40px 80px;
+  border: 1px solid #003060;
+  background-color: #fff;
+  position: relative;
+}
+
+/*區塊分隔*/
+#contents > section + section {
+  margin-top: 80px;
+}
+
+
+/*切換頁面*/
+.homework {
+  position: absolute;
+  left: -30px;
+  top: 10px;
+  width: 20px;
+  height: 90px;
+  padding: 5px;
+  background: #b87f78;
+  color: #fff;
+  font-size: 1.0rem;
+  line-height: 1;
+  border-radius: 10px 0px 0px 10px;
+  transition: background-color 1s 0s, color 1s 0s;
+}
+.homework:hover {
+  background-color: #e2c6c4;
+  color: #53565c;
+}
+
+.first {
+  position: absolute;
+  left: -30px;
+  top: 120px;
+  width: 20px;
+  height: 90px;
+  padding: 5px;
+  background: #b87f78;
+  color: #fff;
+  font-size: 1.0rem;
+  line-height: 1;
+  border-radius: 10px 0px 0px 10px;
+  transition: background-color 1s 0s, color 1s 0s;
+}
+.first:hover {
+  background-color: #e2c6c4;
+  color: #53565c;
+}
+
+.second {
+  position: absolute;
+  left: -30px;
+  top: 230px;
+  width: 20px;
+  height: 90px;
+  padding: 5px;
+  background: #b87f78;
+  color: #fff;
+  font-size: 1.0rem;
+  line-height: 1;
+  border-radius: 10px 0px 0px 10px;
+  transition: background-color 1s 0s, color 1s 0s;
+}
+.second:hover {
+  background-color: #e2c6c4;
+  color: #53565c;
+}
+
+.third {
+  position: absolute;
+  left: -30px;
+  top: 340px;
+  width: 20px;
+  height: 90px;
+  padding: 5px;
+  background: #b87f78;
+  color: #fff;
+  font-size: 1.0rem;
+  line-height: 1;
+  border-radius: 10px 0px 0px 10px;
+  transition: background-color 1s 0s, color 1s 0s;
+}
+.third:hover {
+  background-color: #e2c6c4;
+  color: #53565c;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*頁尾*/
+#footer {
+  background-color: gold;
+  clear: both;
+}
