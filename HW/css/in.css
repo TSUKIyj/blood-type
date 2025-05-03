@@ -1,0 +1,80 @@
+body{
+	background-color: #97A5C0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu{
+	font-family: '標楷體';
+	font-size: 20px;
+}
+.menu>li{
+	float:left;
+}
+
+/*基準元素*/
+.menu li{
+	position: relative;
+	padding: 0px;
+	border: lightblue 1px dashed;
+	min-width: 120px;
+}
+.menu ul{
+	position: absolute;
+	z-index: 10;
+	top:100%;
+	display: none; 	/*隱藏下拉選區*/
+}
+
+
+/*第二層與第三層*/
+.menu ul li>ul{
+	z-index: 20;
+	top: 5%;
+	left: 95%;
+}
+
+/*超連結*/
+.menu a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	background-image: url("../../HW/img/blue.png");
+	background-size: cover;
+	color: black;
+}
+
+.menu a:hover {
+	background-image: url("../../HW/img/bluee.png");
+	background-size: cover;
+	color: white;
+}
+
+/*時機<img src="img/blue.png" class="i">*/
+.menu li:hover > ul{
+	display: block;	  /*顯示下拉選區*/
+}
+
+
+.clear{clear: both;}
+header{
+	height: 100px;
+	background-color:#97A5C0;
+}
+main{
+	height: 700px;
+	background-image: url("../img/dot2.jpg");
+}
+footer{
+	height: 100px;
+	background-color:#97A5C0;
+}
+footer p{
+	text-align: center;
+	line-height: 80px;
+}
+
