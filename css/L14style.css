@@ -1,0 +1,93 @@
+body {
+  padding-top: 80px;
+  background-color: #f0ded4;
+}
+
+#wrap {
+  width: 988px;
+  margin: 0 auto;
+}
+
+#header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+
+  border: 1px dotted #94c8b1;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #a87153;
+}
+/* 移至最上 */
+.home {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background: #484891;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+  transition: all 1s ease;
+}
+
+.home:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.item {
+  background-color: beige;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 5px;
+  padding: 10px;
+  width: 225px;
+  height: 450px;
+  border: 1px solid #ccc;
+}
+
+.item img {
+  padding-top: 10px;
+}
+
+.ico-new {
+  position: absolute;
+  left: -30px;
+  top: 10px;
+  transform: rotate(-45deg);
+  width: 100px;
+  padding: 5px;
+  background: #f00;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1;
+  text-align: center;
+}
+
+footer {
+  height: 100px;
+  clear: both;
+}
+footer p {
+  text-align: center;
+  line-height: 80px;
+}
